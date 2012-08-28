@@ -4,8 +4,8 @@ require File.expand_path('../lib/mongoid_model/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["jake hoffner"]
   gem.email         = ["jake.hoffner@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Mongoid extensions. Instead of extending the Mongoid document class itself a separate namespace is used.}
+  gem.summary       = %q{Mongoid extensions}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
