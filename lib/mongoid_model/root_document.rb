@@ -1,4 +1,4 @@
-module Model
+module MongoidModel
   module RootDocument
     extend ActiveSupport::Concern
 
